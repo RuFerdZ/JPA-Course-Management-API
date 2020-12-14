@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "00c74a72-d954-4942-904b-2aa4b48aa7d8",
+		"name": "Actuator - Config",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Health",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/actuator/health",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"actuator",
+						"health"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
