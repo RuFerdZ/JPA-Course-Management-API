@@ -45,4 +45,9 @@ public class CourseController {
         courseService.deleteCourse(courseId);
     }
 
+
+    @GetMapping("/hello")
+    public String hello(){
+        return "<h1>Hello World</h1>";
+    }
 }
